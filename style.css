@@ -130,7 +130,7 @@ width: 810px;
 		font-size: 50px;
 		left: 40%;
 	}
-	.container .nxt .sign_up input[type="submit"]{
+	.container  .sign_up input[type="submit"]{
 		top: 680px;
 		padding: 50px;
 		width: 810px;
