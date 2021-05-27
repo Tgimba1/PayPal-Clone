@@ -1,0 +1,146 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	position: absolute;
+	top: 20%;
+	left: 55%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	
+}
+ img{
+	height: 70px;
+}
+.container .txt input[type="text"]{
+	position: absolute;
+	border: 1px solid grey;
+	padding: 15px;
+	width: 100%;
+left: -130px;
+margin: 30px;
+border-radius: 5px;
+}
+.container .nxt input[type="submit"]{
+	position: absolute;
+	top: 140px;
+width: 435px;
+left: -130px;
+margin: 30px;
+padding: 15px;
+background: #2980b9;
+color: white;
+font-size: 16px;
+font-weight: 700;
+border: 1px solid;
+border-radius: 5px;
+cursor: pointer;
+}
+.container .nxt input[type="submit"]:hover{
+	background:
+#1A1ADB;
+	transition: .5s;
+}
+.or{
+	position: absolute;
+	top: 235px;
+	font-size: 18px;
+	left: 115px;
+	color: grey;
+}
+
+.sign_up input{
+	position: absolute;
+	top: 270px;
+	width: 435px;
+	left: -100px;
+	padding: 13px;
+	background: #E7E7E8;
+	font-weight: 700;
+	text-align: center;
+	border: 1px solid #D9DBE2;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+
+}
+.sign_up input:hover{
+	background: #D9DBE2;
+transition: .5s;
+}
+select{
+	position: absolute;
+	left: -100px;
+	top: 400px;
+	border: none;
+}
+.links{
+	display: flex;
+	align-items: center;
+	background: grey;
+	height: 8%;
+}
+nav{
+	position: absolute;
+	bottom:0;
+text-align: center;
+	flex: 1;
+		background: #E7E7E8;
+	
+	width: 100%;
+
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 25px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: grey;
+	font-size: 15px;
+}
+nav ul li a:hover{
+	text-decoration: underline;
+}
+@media(max-width: 991px){
+	img{
+		position: absolute;
+		height: 130px;
+		right: 30%;
+	}
+	.container{
+		top: 5%;
+		width: 700px;
+	}
+	.container .txt input[type="text"]{
+padding: 50px;
+font-size: 40px;
+top: 170px;
+	}
+	.container .nxt input[type="submit"]{
+		padding: 50px;
+font-size: 40px;
+top: 370px;
+width: 810px;
+	}
+	.or{
+		top: 580px;
+		font-size: 50px;
+		left: 40%;
+	}
+	.container .nxt .sign_up input[type="submit"]{
+		top: 680px;
+		padding: 50px;
+		width: 810px;
+		font-size: 40px;
+	}
+	select{
+		top: 990px;
+		font-size: 40px;
+	}
+	select option{
+		font-size: 20px;
+	}
+}
